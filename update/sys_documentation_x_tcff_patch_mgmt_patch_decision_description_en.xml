@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>brett.erickson</sys_created_by>
             <sys_created_on>2016-10-12 18:00:44</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>4b6bc36f4f126240fccb76601310c7d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Patch / Release Description</sys_name>

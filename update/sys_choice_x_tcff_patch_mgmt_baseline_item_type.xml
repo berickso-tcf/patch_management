@@ -10,14 +10,14 @@
             <language>en</language>
             <name>x_tcff_patch_mgmt_baseline</name>
             <sequence>0</sequence>
-            <sys_created_by>brett.erickson</sys_created_by>
-            <sys_created_on>2016-10-05 15:13:29</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-11-17 00:20:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8112aa514fdae20057a7650f0310c7b1</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>brett.erickson</sys_updated_by>
-            <sys_updated_on>2016-10-05 15:29:57</sys_updated_on>
+            <sys_id>dc32740f4f8ba240ebc72e35f110c766</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-11-17 00:20:58</sys_updated_on>
             <value>Business Application</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -29,14 +29,14 @@
             <language>en</language>
             <name>x_tcff_patch_mgmt_baseline</name>
             <sequence>1</sequence>
-            <sys_created_by>brett.erickson</sys_created_by>
-            <sys_created_on>2016-10-05 15:13:49</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-11-17 00:20:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cb12e6914fdae20057a7650f0310c7f3</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>brett.erickson</sys_updated_by>
-            <sys_updated_on>2016-10-05 15:29:57</sys_updated_on>
+            <sys_id>1032740f4f8ba240ebc72e35f110c767</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-11-17 00:20:58</sys_updated_on>
             <value>Operating System</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -48,14 +48,14 @@
             <language>en</language>
             <name>x_tcff_patch_mgmt_baseline</name>
             <sequence>2</sequence>
-            <sys_created_by>brett.erickson</sys_created_by>
-            <sys_created_on>2016-10-05 15:14:12</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-11-17 00:20:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8c32e6514fdae20057a7650f0310c778</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>brett.erickson</sys_updated_by>
-            <sys_updated_on>2016-10-05 15:29:57</sys_updated_on>
+            <sys_id>5032740f4f8ba240ebc72e35f110c767</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-11-17 00:20:58</sys_updated_on>
             <value>Firmware</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -67,33 +67,33 @@
             <language>en</language>
             <name>x_tcff_patch_mgmt_baseline</name>
             <sequence>3</sequence>
-            <sys_created_by>brett.erickson</sys_created_by>
-            <sys_created_on>2016-10-05 15:14:50</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-11-17 00:20:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2542e6914fdae20057a7650f0310c79a</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>brett.erickson</sys_updated_by>
-            <sys_updated_on>2016-10-05 15:29:57</sys_updated_on>
+            <sys_id>9032740f4f8ba240ebc72e35f110c767</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-11-17 00:20:58</sys_updated_on>
             <value>Other</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>item_type</element>
             <name>x_tcff_patch_mgmt_baseline</name>
             <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>brett.erickson</sys_created_by>
-            <sys_created_on>2016-10-05 15:13:29</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-11-17 00:20:58</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>a6da11774f183200fccb76601310c716</sys_id>
-            <sys_mod_count>14</sys_mod_count>
+            <sys_id>d032740f4f8ba240ebc72e35f110c767</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>item_type</sys_name>
             <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
             <sys_update_name>sys_choice_x_tcff_patch_mgmt_baseline_item_type</sys_update_name>
-            <sys_updated_by>brett.erickson</sys_updated_by>
-            <sys_updated_on>2017-02-17 13:04:47</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-11-17 00:20:58</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

@@ -9,7 +9,7 @@
         <sys_class_name>sysevent_register</sys_class_name>
         <sys_created_by>brett.erickson</sys_created_by>
         <sys_created_on>2016-11-03 13:01:52</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6d1ad7624f72e60057a7650f0310c79c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_tcff_patch_mgmt.patch.overdue</sys_name>

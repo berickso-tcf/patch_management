@@ -13,7 +13,7 @@
         <sys_class_name>sysevent_email_template</sys_class_name>
         <sys_created_by>brett.erickson</sys_created_by>
         <sys_created_on>2016-10-20 17:34:16</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>edc0501a4fa6e24057a7650f0310c70b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>patch.baseline.new</sys_name>

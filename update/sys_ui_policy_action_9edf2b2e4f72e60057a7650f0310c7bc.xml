@@ -7,7 +7,7 @@
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>brett.erickson</sys_created_by>
         <sys_created_on>2016-11-03 14:38:40</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9edf2b2e4f72e60057a7650f0310c7bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>due_date</sys_name>

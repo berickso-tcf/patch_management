@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
-        <filter table="change_request">sys_id=349d6b754feaa24057a7650f0310c729^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="349d6b754feaa24057a7650f0310c729"/>
+        <filter table="sys_user">nameSTARTSWITHscott reitz^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="scott reitz"/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <group/>
-        <last_used>2016-10-19 20:28:04</last_used>
+        <last_used>2016-10-07 12:53:50</last_used>
         <mobile>true</mobile>
         <roles/>
         <sys_class_name>sys_filter</sys_class_name>
-        <sys_created_by>berickso</sys_created_by>
-        <sys_created_on>2016-10-19 20:15:58</sys_created_on>
+        <sys_created_by>dpeterso</sys_created_by>
+        <sys_created_on>2016-10-07 12:53:50</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5a9da7b54feaa24057a7650f0310c74d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_id>38555c8e4f566a00fccb76601310c7c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>mobile</sys_name>
         <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
-        <sys_update_name>sys_filter_5a9da7b54feaa24057a7650f0310c74d</sys_update_name>
-        <sys_updated_by>berickso</sys_updated_by>
-        <sys_updated_on>2016-10-19 20:28:04</sys_updated_on>
-        <table>change_request</table>
+        <sys_update_name>sys_filter_38555c8e4f566a00fccb76601310c7c8</sys_update_name>
+        <sys_updated_by>dpeterso</sys_updated_by>
+        <sys_updated_on>2016-10-07 12:53:50</sys_updated_on>
+        <table>sys_user</table>
         <title>mobile</title>
-        <user display_value="Brett Erickson">627920794fffb10057a7650f0310c788</user>
+        <user display_value="Didrik Peterson">e37920794fffb10057a7650f0310c7c2</user>
     </sys_filter>
 </record_update>

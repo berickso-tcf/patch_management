@@ -12,7 +12,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>brett.erickson</sys_created_by>
         <sys_created_on>2016-10-06 20:34:56</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>600534754f96260057a7650f0310c7d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_tcff_patch_mgmt.admin</sys_name>

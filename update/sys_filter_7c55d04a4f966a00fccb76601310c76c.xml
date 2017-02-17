@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
-        <filter table="x_tcff_patch_mgmt_patch_decision">sys_id=d7b37fee4f362600fccb76601310c7e8^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="d7b37fee4f362600fccb76601310c7e8"/>
+        <filter table="sys_user">nameSTARTSWITHscott reit^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="scott reit"/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <group/>
-        <last_used>2016-11-03 15:35:34</last_used>
+        <last_used>2016-10-07 12:53:49</last_used>
         <mobile>true</mobile>
         <roles/>
         <sys_class_name>sys_filter</sys_class_name>
-        <sys_created_by>brett.erickson</sys_created_by>
-        <sys_created_on>2016-11-03 14:54:11</sys_created_on>
+        <sys_created_by>dpeterso</sys_created_by>
+        <sys_created_on>2016-10-07 12:53:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8bc377224f762600fccb76601310c7df</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_id>7c55d04a4f966a00fccb76601310c76c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>mobile</sys_name>
         <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
-        <sys_update_name>sys_filter_8bc377224f762600fccb76601310c7df</sys_update_name>
-        <sys_updated_by>brett.erickson</sys_updated_by>
-        <sys_updated_on>2016-11-03 15:35:34</sys_updated_on>
-        <table>x_tcff_patch_mgmt_patch_decision</table>
+        <sys_update_name>sys_filter_7c55d04a4f966a00fccb76601310c76c</sys_update_name>
+        <sys_updated_by>dpeterso</sys_updated_by>
+        <sys_updated_on>2016-10-07 12:53:49</sys_updated_on>
+        <table>sys_user</table>
         <title>mobile</title>
-        <user display_value="Brett Erickson(L)">aacb3cfe4faf7100218d8b8d0210c787</user>
+        <user display_value="Didrik Peterson">e37920794fffb10057a7650f0310c7c2</user>
     </sys_filter>
 </record_update>

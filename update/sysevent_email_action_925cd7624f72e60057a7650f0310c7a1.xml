@@ -42,7 +42,7 @@
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>brett.erickson</sys_created_by>
         <sys_created_on>2016-11-03 13:11:45</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>925cd7624f72e60057a7650f0310c7a1</sys_id>

@@ -7,7 +7,7 @@
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>brett.erickson</sys_created_by>
         <sys_created_on>2016-10-06 13:48:14</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a61893e94fd6e600fccb76601310c70d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>other_exemption_reason</sys_name>

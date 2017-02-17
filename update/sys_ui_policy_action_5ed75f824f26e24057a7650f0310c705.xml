@@ -7,7 +7,7 @@
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>brett.erickson</sys_created_by>
         <sys_created_on>2016-10-20 13:19:52</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5ed75f824f26e24057a7650f0310c705</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>planned_deployment_date</sys_name>

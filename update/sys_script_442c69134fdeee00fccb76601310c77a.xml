@@ -46,7 +46,7 @@ var pdc = new GlideRecord('x_tcff_patch_mgmt_patch_decision');
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>brett.erickson</sys_created_by>
         <sys_created_on>2016-10-11 16:49:29</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>442c69134fdeee00fccb76601310c77a</sys_id>

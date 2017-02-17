@@ -7,7 +7,7 @@
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>brett.erickson</sys_created_by>
         <sys_created_on>2016-10-05 18:20:08</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2dac8f554f1ee20057a7650f0310c7ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>cmdb_ci</sys_name>

@@ -28,7 +28,7 @@ function missinChangeEvent() {
         <sys_created_on>2016-11-03 12:53:40</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>9c17df224f72e60057a7650f0310c708</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Patch Missing Change</sys_name>
         <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
         <sys_policy/>
@@ -36,7 +36,7 @@ function missinChangeEvent() {
         <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
         <sys_update_name>sysauto_script_9c17df224f72e60057a7650f0310c708</sys_update_name>
         <sys_updated_by>brett.erickson</sys_updated_by>
-        <sys_updated_on>2016-11-03 12:53:40</sys_updated_on>
+        <sys_updated_on>2017-01-07 16:06:12</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

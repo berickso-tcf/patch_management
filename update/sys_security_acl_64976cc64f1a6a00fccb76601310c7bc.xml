@@ -22,7 +22,7 @@ function canIWriteToPDC() {
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>brett.erickson</sys_created_by>
         <sys_created_on>2016-10-07 14:15:54</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>64976cc64f1a6a00fccb76601310c7bc</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>x_tcff_patch_mgmt_patch_decision.baseline_item</sys_name>

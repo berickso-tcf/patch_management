@@ -38,7 +38,7 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>brett.erickson</sys_created_by>
         <sys_created_on>2016-10-10 17:47:49</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6ac3f8cf4fdeae00fccb76601310c7c3</sys_id>

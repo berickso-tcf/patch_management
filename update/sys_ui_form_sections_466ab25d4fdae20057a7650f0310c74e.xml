@@ -49,7 +49,7 @@
             <sys_class_name>sys_ui_form</sys_class_name>
             <sys_created_by>brett.erickson</sys_created_by>
             <sys_created_on>2016-10-05 16:59:39</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>466ab25d4fdae20057a7650f0310c74e</sys_id>
