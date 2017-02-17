@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="reason_for_exemption" table="x_tcff_patch_mgmt_baseline" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_exemption</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internally Developed</label>
+            <language>en</language>
+            <name>x_tcff_patch_mgmt_baseline</name>
+            <sequence>0</sequence>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 13:01:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2d38ad14f9ae20057a7650f0310c7a9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 15:29:58</sys_updated_on>
+            <value>Internally Developed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_exemption</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vendor Owned</label>
+            <language>en</language>
+            <name>x_tcff_patch_mgmt_baseline</name>
+            <sequence>1</sequence>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 13:02:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1f30a154f9ae20057a7650f0310c79d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 15:29:58</sys_updated_on>
+            <value>Vendor Owned</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_exemption</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unsupported</label>
+            <language>en</language>
+            <name>x_tcff_patch_mgmt_baseline</name>
+            <sequence>2</sequence>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 13:03:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a0482154f9ae20057a7650f0310c760</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 15:29:58</sys_updated_on>
+            <value>Unsupported</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_exemption</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Patched under a different name</label>
+            <language>en</language>
+            <name>x_tcff_patch_mgmt_baseline</name>
+            <sequence>3</sequence>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 13:05:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>424402154f9ae20057a7650f0310c78e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 15:29:58</sys_updated_on>
+            <value>Different Name</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_exemption</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_tcff_patch_mgmt_baseline</name>
+            <sequence>4</sequence>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 13:06:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bd446154f9ae20057a7650f0310c741</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 15:29:58</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>reason_for_exemption</element>
+            <name>x_tcff_patch_mgmt_baseline</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 13:01:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>66da11774f183200fccb76601310c725</sys_id>
+            <sys_mod_count>17</sys_mod_count>
+            <sys_name>reason_for_exemption</sys_name>
+            <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+            <sys_update_name>sys_choice_x_tcff_patch_mgmt_baseline_reason_for_exemption</sys_update_name>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2017-02-17 13:04:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

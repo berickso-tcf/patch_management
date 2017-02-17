@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>RPTd9d8a8734fd7e600fccb76601310c76b</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>brett.erickson</sys_created_by>
+        <sys_created_on>2016-12-17 16:10:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a05baa3c4f7bee40ebc72e35f110c7ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>brett.erickson</sys_updated_by>
+        <sys_updated_on>2016-12-17 16:10:57</sys_updated_on>
+        <title>Rptd9d8a8734fd7e600fccb76601310c76b</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

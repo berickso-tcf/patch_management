@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_pbl_import" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_row</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>58b2a0c74f726600fccb76601310c7dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_set</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>98b2a0c74f726600fccb76601310c7dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_state</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>d8b2a0c74f726600fccb76601310c7dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_item_status</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>1cb2a0c74f726600fccb76601310c7dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_item_name</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>5cb2a0c74f726600fccb76601310c7dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_technology_owner</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>9cb2a0c74f726600fccb76601310c7dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_patch_exempt__justification</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>dcb2a0c74f726600fccb76601310c7dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_tcf_review___ment_frequency</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>10b2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_technology</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>50b2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_consolidated_patch_name</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>90b2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_app_created_by</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>d0b2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_app_modified_by</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>14b2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_content_type</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>54b2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_corresponding_cmdb_ci_name</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>94b2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_created</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>d4b2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_created_by</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>18b2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_dept</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>58b2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_id</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>98b2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_item_child_count</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>d8b2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_item_number</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>1cb2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_last_review_date</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>20</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>5cb2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_latest_patch_or_release</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>21</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>9cb2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_modified</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>22</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>dcb2a0c74f726600fccb76601310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_modified_by</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>23</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>10b2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_notes</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>24</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>50b2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_patch_release_frequency</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>25</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>90b2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_patch_rel_no_ication_method</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>26</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>d0b2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_policy_exemp_ation_location</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>27</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>14b2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_priority</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>28</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>54b2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_steering_committee</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>29</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>94b2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_tcf_current_version</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>30</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>d4b2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_vendor_information</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>31</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>18b2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_item_type</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>32</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>58b2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_path</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>33</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>98b2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_table</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>34</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>d8b2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_sys_id</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>35</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>1cb2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_row_error</element>
+            <list_id display_value="u_pbl_import" element="NULL" name="u_pbl_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d4b2a0c74f726600fccb76601310c7dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>36</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_id>5cb2a0c74f726600fccb76601310c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_pbl_import</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-11-04 12:57:33</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4b2a0c74f726600fccb76601310c7dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_pbl_import</sys_name>
+            <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+            <sys_update_name>sys_ui_list_u_pbl_import_null</sys_update_name>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-11-04 12:57:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

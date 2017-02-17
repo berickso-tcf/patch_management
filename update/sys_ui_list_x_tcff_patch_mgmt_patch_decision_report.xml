@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_tcff_patch_mgmt_patch_decision" version="2" view="report">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>baseline_item.number</element>
+            <list_id display_value="x_tcff_patch_mgmt_patch_decision" element="NULL" name="x_tcff_patch_mgmt_patch_decision" parent="NULL" relationship="NULL" sys_domain="global" view="8eafd0c84fbc760057a7650f0310c79d">1096465c4fb4b60057a7650f0310c7d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2017-02-03 17:16:12</sys_created_on>
+            <sys_id>5496465c4fb4b60057a7650f0310c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2017-02-03 17:16:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>baseline_item</element>
+            <list_id display_value="x_tcff_patch_mgmt_patch_decision" element="NULL" name="x_tcff_patch_mgmt_patch_decision" parent="NULL" relationship="NULL" sys_domain="global" view="8eafd0c84fbc760057a7650f0310c79d">1096465c4fb4b60057a7650f0310c7d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2017-02-03 17:16:12</sys_created_on>
+            <sys_id>d496465c4fb4b60057a7650f0310c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2017-02-03 17:16:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>evaluation_date</element>
+            <list_id display_value="x_tcff_patch_mgmt_patch_decision" element="NULL" name="x_tcff_patch_mgmt_patch_decision" parent="NULL" relationship="NULL" sys_domain="global" view="8eafd0c84fbc760057a7650f0310c79d">1096465c4fb4b60057a7650f0310c7d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2017-02-03 17:16:12</sys_created_on>
+            <sys_id>5896465c4fb4b60057a7650f0310c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2017-02-03 17:16:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>decision</element>
+            <list_id display_value="x_tcff_patch_mgmt_patch_decision" element="NULL" name="x_tcff_patch_mgmt_patch_decision" parent="NULL" relationship="NULL" sys_domain="global" view="8eafd0c84fbc760057a7650f0310c79d">1096465c4fb4b60057a7650f0310c7d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2017-02-03 17:16:12</sys_created_on>
+            <sys_id>d896465c4fb4b60057a7650f0310c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2017-02-03 17:16:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>due_date</element>
+            <list_id display_value="x_tcff_patch_mgmt_patch_decision" element="NULL" name="x_tcff_patch_mgmt_patch_decision" parent="NULL" relationship="NULL" sys_domain="global" view="8eafd0c84fbc760057a7650f0310c79d">1096465c4fb4b60057a7650f0310c7d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2017-02-03 17:16:12</sys_created_on>
+            <sys_id>5c96465c4fb4b60057a7650f0310c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2017-02-03 17:16:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>baseline_item.review_frequency</element>
+            <list_id display_value="x_tcff_patch_mgmt_patch_decision" element="NULL" name="x_tcff_patch_mgmt_patch_decision" parent="NULL" relationship="NULL" sys_domain="global" view="8eafd0c84fbc760057a7650f0310c79d">1096465c4fb4b60057a7650f0310c7d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2017-02-03 17:16:12</sys_created_on>
+            <sys_id>dc96465c4fb4b60057a7650f0310c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2017-02-03 17:16:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>change_request</element>
+            <list_id display_value="x_tcff_patch_mgmt_patch_decision" element="NULL" name="x_tcff_patch_mgmt_patch_decision" parent="NULL" relationship="NULL" sys_domain="global" view="8eafd0c84fbc760057a7650f0310c79d">1096465c4fb4b60057a7650f0310c7d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2017-02-03 17:16:12</sys_created_on>
+            <sys_id>5096465c4fb4b60057a7650f0310c7d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2017-02-03 17:16:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_tcff_patch_mgmt_patch_decision" element="NULL" name="x_tcff_patch_mgmt_patch_decision" parent="NULL" relationship="NULL" sys_domain="global" view="8eafd0c84fbc760057a7650f0310c79d">1096465c4fb4b60057a7650f0310c7d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2017-02-03 17:16:12</sys_created_on>
+            <sys_id>d096465c4fb4b60057a7650f0310c7d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2017-02-03 17:16:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_tcff_patch_mgmt_patch_decision</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2017-02-03 17:16:12</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1096465c4fb4b60057a7650f0310c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_tcff_patch_mgmt_patch_decision</sys_name>
+            <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+            <sys_update_name>sys_ui_list_x_tcff_patch_mgmt_patch_decision_report</sys_update_name>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2017-02-03 17:16:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Report" name="report">8eafd0c84fbc760057a7650f0310c79d</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

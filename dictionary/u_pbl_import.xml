@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Patch Baseline" max_length="40" name="u_pbl_import" type="collection">
+        <element attributes="import_attribute_name=App Created By,edge_encryption_enabled=true" label="App Created By" max_length="40" name="u_app_created_by" type="string"/>
+        <element attributes="import_attribute_name=App Modified By,edge_encryption_enabled=true" label="App Modified By" max_length="40" name="u_app_modified_by" type="string"/>
+        <element attributes="import_attribute_name=Consolidated Patch Name,edge_encryption_enabled=true" label="Consolidated Patch Name" max_length="40" name="u_consolidated_patch_name" type="string"/>
+        <element attributes="import_attribute_name=Content Type,edge_encryption_enabled=true" label="Content Type" max_length="40" name="u_content_type" type="string"/>
+        <element attributes="import_attribute_name=Corresponding CMDB CI Name,edge_encryption_enabled=true" label="Corresponding CMDB CI Name" max_length="53" name="u_corresponding_cmdb_ci_name" type="string"/>
+        <element attributes="import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="glide_date_time"/>
+        <element attributes="import_attribute_name=Created By,edge_encryption_enabled=true" label="Created By" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="import_attribute_name=Dept,edge_encryption_enabled=true" label="Dept" max_length="40" name="u_dept" type="string"/>
+        <element attributes="import_attribute_name=ID" label="ID" max_length="40" name="u_id" type="integer"/>
+        <element attributes="import_attribute_name=Item Child Count,edge_encryption_enabled=true" label="Item Child Count" max_length="40" name="u_item_child_count" type="string"/>
+        <element attributes="import_attribute_name=Item Name,edge_encryption_enabled=true" label="Item Name" max_length="63" name="u_item_name" type="string"/>
+        <element attributes="import_attribute_name=Item Number,edge_encryption_enabled=true" label="Item Number" max_length="54" name="u_item_number" type="string"/>
+        <element attributes="import_attribute_name=Item Status,edge_encryption_enabled=true" label="Item Status" max_length="40" name="u_item_status" type="string"/>
+        <element attributes="import_attribute_name=Item Type,edge_encryption_enabled=true" label="Item Type" max_length="40" name="u_item_type" type="string"/>
+        <element attributes="import_attribute_name=Last Review Date,edge_encryption_enabled=true" label="Last Review Date" max_length="40" name="u_last_review_date" type="string"/>
+        <element attributes="import_attribute_name=Latest Patch or Release,edge_encryption_enabled=true" label="Latest Patch or Release" max_length="60" name="u_latest_patch_or_release" type="string"/>
+        <element attributes="import_attribute_name=Modified" label="Modified" max_length="40" name="u_modified" type="glide_date_time"/>
+        <element attributes="import_attribute_name=Modified By,edge_encryption_enabled=true" label="Modified By" max_length="40" name="u_modified_by" type="string"/>
+        <element attributes="import_attribute_name=Notes,edge_encryption_enabled=true" label="Notes" max_length="249" name="u_notes" type="string"/>
+        <element attributes="import_attribute_name=Patch Exemption Justification,edge_encryption_enabled=true" label="Patch Exemption Justification" max_length="40" name="u_patch_exempt__justification" type="string"/>
+        <element attributes="import_attribute_name=Patch Release Frequency,edge_encryption_enabled=true" label="Patch Release Frequency" max_length="213" name="u_patch_release_frequency" type="string"/>
+        <element attributes="import_attribute_name=Patch/Rel Notification Method,edge_encryption_enabled=true" label="Patch/Rel Notification Method" max_length="134" name="u_patch_rel_no_ication_method" type="string"/>
+        <element attributes="import_attribute_name=Path,edge_encryption_enabled=true" label="Path" max_length="46" name="u_path" type="string"/>
+        <element attributes="import_attribute_name=Policy Exemption Justification Location,edge_encryption_enabled=true" label="Policy Exemption Justification Location" max_length="62" name="u_policy_exemp_ation_location" type="string"/>
+        <element attributes="import_attribute_name=Priority,edge_encryption_enabled=true" label="Priority" max_length="40" name="u_priority" type="string"/>
+        <element attributes="import_attribute_name=Steering Committee,edge_encryption_enabled=true" label="Steering Committee" max_length="185" name="u_steering_committee" type="string"/>
+        <element attributes="import_attribute_name=TCF Current Version,edge_encryption_enabled=true" label="TCF Current Version" max_length="55" name="u_tcf_current_version" type="string"/>
+        <element attributes="import_attribute_name=TCF Review &amp; Assessment Frequency,edge_encryption_enabled=true" label="TCF Review &amp; Assessment Frequency" max_length="40" name="u_tcf_review___ment_frequency" type="string"/>
+        <element attributes="import_attribute_name=Technology,edge_encryption_enabled=true" label="Technology" max_length="40" name="u_technology" type="string"/>
+        <element attributes="import_attribute_name=Technology Owner,edge_encryption_enabled=true" label="Technology Owner" max_length="40" name="u_technology_owner" type="string"/>
+        <element attributes="import_attribute_name=Vendor Information,edge_encryption_enabled=true" label="Vendor Information" max_length="176" name="u_vendor_information" type="string"/>
+    </element>
+</database>

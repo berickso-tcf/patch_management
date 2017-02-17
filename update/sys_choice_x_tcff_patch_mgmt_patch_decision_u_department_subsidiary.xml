@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_department_subsidiary" table="x_tcff_patch_mgmt_patch_decision" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department_subsidiary</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TCF Equipment Finance</label>
+            <language>en</language>
+            <name>x_tcff_patch_mgmt_patch_decision</name>
+            <sequence>0</sequence>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 16:59:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e6ab25d4fdae20057a7650f0310c74e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 16:59:39</sys_updated_on>
+            <value>EF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department_subsidiary</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TCF Inventory Finance</label>
+            <language>en</language>
+            <name>x_tcff_patch_mgmt_patch_decision</name>
+            <sequence>1</sequence>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 16:59:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>166ab25d4fdae20057a7650f0310c74f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 16:59:39</sys_updated_on>
+            <value>IF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department_subsidiary</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gateway One</label>
+            <language>en</language>
+            <name>x_tcff_patch_mgmt_patch_decision</name>
+            <sequence>2</sequence>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 16:59:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a6ab25d4fdae20057a7650f0310c74f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 16:59:39</sys_updated_on>
+            <value>GOLF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department_subsidiary</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>National Lending</label>
+            <language>en</language>
+            <name>x_tcff_patch_mgmt_patch_decision</name>
+            <sequence>3</sequence>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 16:59:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>126ab25d4fdae20057a7650f0310c750</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 16:59:39</sys_updated_on>
+            <value>NL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department_subsidiary</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TCF Bank</label>
+            <language>en</language>
+            <name>x_tcff_patch_mgmt_patch_decision</name>
+            <sequence>4</sequence>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 16:59:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>966ab25d4fdae20057a7650f0310c750</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 16:59:39</sys_updated_on>
+            <value>TCF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department_subsidiary</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Winthrop</label>
+            <language>en</language>
+            <name>x_tcff_patch_mgmt_patch_decision</name>
+            <sequence>5</sequence>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 16:59:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e6ab25d4fdae20057a7650f0310c750</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 16:59:39</sys_updated_on>
+            <value>WRC</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_department_subsidiary</element>
+            <name>x_tcff_patch_mgmt_patch_decision</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 16:59:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e7da11774f183200fccb76601310c7a9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>u_department_subsidiary</sys_name>
+            <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+            <sys_update_name>sys_choice_x_tcff_patch_mgmt_patch_decision_u_department_subsidiary</sys_update_name>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2017-02-17 13:04:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

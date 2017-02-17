@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="decision" label="Deployment Decision" language="en" table="x_tcff_patch_mgmt_patch_decision">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>decision</element>
+            <help/>
+            <hint/>
+            <label>Deployment Decision</label>
+            <language>en</language>
+            <name>x_tcff_patch_mgmt_patch_decision</name>
+            <plural>Deployment Decisions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 14:11:24</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>e9e3ded94f9ae20057a7650f0310c714</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Deployment Decision</sys_name>
+            <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+            <sys_update_name>sys_documentation_x_tcff_patch_mgmt_patch_decision_decision_en</sys_update_name>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 17:12:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

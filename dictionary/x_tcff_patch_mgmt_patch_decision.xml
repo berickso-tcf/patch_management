@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Patch Decision" max_length="40" name="x_tcff_patch_mgmt_patch_decision" sizeclass="383" type="collection">
+        <element label="Baseline Item" mandatory="true" max_length="32" name="baseline_item" reference="x_tcff_patch_mgmt_baseline" type="reference"/>
+        <element label="Enhancement" max_length="40" name="cat_enhancement" type="boolean"/>
+        <element label="Functionality" max_length="40" name="cat_functionality" type="boolean"/>
+        <element label="Security" max_length="40" name="cat_security" type="boolean"/>
+        <element label="Stability" max_length="40" name="cat_stability" type="boolean"/>
+        <element label="Change Request" max_length="32" name="change_request" reference="change_request" type="reference"/>
+        <element choice="3" default="Pending" label="Deployment Decision" max_length="40" name="decision" type="choice">
+            <choice>
+                <element label="Pending" sequence="0" value="Pending"/>
+                <element label="Deploy" sequence="1" value="Deploy"/>
+                <element label="Do not deploy" sequence="2" value="Do not deploy"/>
+                <element label="No Patches Available" sequence="3" value="No Patches Available"/>
+            </choice>
+        </element>
+        <element hint="Date by which a decision will be made" label="Evaluation Date" max_length="40" name="evaluation_date" type="glide_date"/>
+        <element label="Justification for not deploying" max_length="250" name="justification_for_not_deploying" type="string"/>
+        <element label="New Application Version Number" max_length="40" name="new_application_version_number" type="string"/>
+        <element choice="1" label="Are patches available for this item?" mandatory="true" max_length="40" name="patch_available" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Patch Period" max_length="40" name="patch_period" type="glide_date"/>
+        <element label="Planned Deployment Date" max_length="40" name="planned_deployment_date" type="glide_date"/>
+        <element choice="1" label="Severity" max_length="40" name="severity" type="integer">
+            <choice>
+                <element label="Critical" sequence="0" value="1"/>
+                <element label="High" sequence="1" value="2"/>
+                <element label="Medium" sequence="2" value="3"/>
+                <element label="Low" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Update Type" max_length="40" name="update_type" type="choice">
+            <choice>
+                <element label="Patch" sequence="0" value="Patch"/>
+                <element label="Major Release" sequence="1" value="Major Release"/>
+                <element label="Minor Release" sequence="2" value="Minor Release"/>
+            </choice>
+        </element>
+    </element>
+</database>

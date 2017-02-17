@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_tcff_patch_mgmt.admin" name="x_tcff_patch_mgmt.admin">600534754f96260057a7650f0310c7d5</contains>
+        <role display_value="ecmdb_admin" name="ecmdb_admin">7f1eb5d90a0a0b6500e66ba1875fdfb6</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>brett.erickson</sys_created_by>
+        <sys_created_on>2016-10-06 20:42:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>aee670b54f96260057a7650f0310c78f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_tcff_patch_mgmt.admin.ecmdb_admin</sys_name>
+        <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+        <sys_update_name>sys_user_role_contains_aee670b54f96260057a7650f0310c78f</sys_update_name>
+        <sys_updated_by>brett.erickson</sys_updated_by>
+        <sys_updated_on>2016-10-06 20:42:07</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

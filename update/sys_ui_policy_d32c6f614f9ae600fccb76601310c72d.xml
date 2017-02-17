@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_tcff_patch_mgmt_baseline">reason_for_exemption=Other^review_frequency!=Monthly^EQ<item endquery="false" field="reason_for_exemption" goto="false" newquery="false" operator="=" or="false" value="Other"/>
+            <item endquery="false" field="review_frequency" goto="false" newquery="false" operator="!=" or="false" value="Monthly"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Authorization required for non-monthly other</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>brett.erickson</sys_created_by>
+        <sys_created_on>2016-10-06 15:17:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d32c6f614f9ae600fccb76601310c72d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Authorization required for non-monthly other</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+        <sys_update_name>sys_ui_policy_d32c6f614f9ae600fccb76601310c72d</sys_update_name>
+        <sys_updated_by>brett.erickson</sys_updated_by>
+        <sys_updated_on>2016-10-06 15:33:12</sys_updated_on>
+        <table>x_tcff_patch_mgmt_baseline</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

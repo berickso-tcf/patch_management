@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Create Patch Decisions</name>
+        <run_as display_value="Brett Erickson(L)">aacb3cfe4faf7100218d8b8d0210c787</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2016-11-02 14:55:34</run_start>
+        <run_time>1970-01-01 12:11:00</run_time>
+        <run_type>monthly</run_type>
+        <script><![CDATA[var affectedPbl = getBaselines();
+var gdt = new GlideDateTime();
+var currentDate = gdt.getYearLocalTime() + '-' + gdt.getMonthLocalTime() + '-01';
+
+for (i=0; i < affectedPbl.length; i++) {
+		var newDec = new GlideRecord('x_tcff_patch_mgmt_patch_decision');
+		newDec.initialize();
+		newDec.baseline_item = affectedPbl[i];
+		newDec.patch_period = currentDate;
+		newDec.insert();
+}
+
+// Build an array containing all eligible baselines
+function getBaselines() {
+	var pblArr = [];
+	var pbl = new GlideRecord('x_tcff_patch_mgmt_baseline');
+	pbl.addEncodedQuery('active=true^item_status!=Exempt^next_review_date<=javascript:gs.daysAgoEnd(0)');
+	pbl.query();
+	while (pbl.next()) {
+		pblArr.push(pbl.sys_id.toString());
+		var dtstr = '';
+		if (pbl.review_frequency == 'Monthly') {
+			dtstr = gs.beginningOfNextMonth();
+		}
+		if (pbl.review_frequency == 'Quarterly') {
+			dtstr = gs.endOfThisQuarter();
+		}
+		if (pbl.review_frequency == 'Semi-Annually') {
+			var gdt = new GlideDateTime();
+			var month = gdt.getMonthLocalTime();
+			var year = gdt.getYearLocalTime();
+			if (month < 7) {
+				dtstr = year.toString() + '-07-01 00:00:00';
+			} else {
+				var yearint = parseInt(year) + 1;
+				dtstr = yearint.toString() + '-01-01 00:00:00';
+			}
+		}
+		//gs.info ('I think the datetime is ' + dtstr);
+		if (dtstr != '') {
+			var datetime = new GlideDateTime(dtstr);
+			pbl.next_review_date = datetime.getDate().toString();
+		} else {
+			current.next_review_date = '';
+		}
+		pbl.update();
+	}
+	return pblArr;
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>brett.erickson</sys_created_by>
+        <sys_created_on>2016-11-02 16:00:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>618a26964f3aa60057a7650f0310c709</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Create Patch Decisions</sys_name>
+        <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+        <sys_update_name>sysauto_script_618a26964f3aa60057a7650f0310c709</sys_update_name>
+        <sys_updated_by>brett.erickson</sys_updated_by>
+        <sys_updated_on>2017-02-02 12:52:34</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

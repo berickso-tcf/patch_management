@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>short_description</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>brett.erickson</sys_created_by>
+        <sys_created_on>2016-10-07 14:58:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f5b1708e4f1e260057a7650f0310c74a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f5b1708e4f1e260057a7650f0310c74a</sys_update_name>
+        <sys_updated_by>brett.erickson</sys_updated_by>
+        <sys_updated_on>2016-10-12 18:55:10</sys_updated_on>
+        <table>x_tcff_patch_mgmt_patch_decision</table>
+        <ui_policy display_value="Make ID/Description required if available patches">4779680e4f1a6a00fccb76601310c7b8</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

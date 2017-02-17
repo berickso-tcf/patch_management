@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>brett.erickson</sys_created_by>
+        <sys_created_on>2016-10-07 13:12:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cd79500e4f966a00fccb76601310c75c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_tcff_patch_mgmt.admin</sys_name>
+        <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+        <sys_security_acl display_value="x_tcff_patch_mgmt_baseline.next_review_date">ef69588e4f966a00fccb76601310c7a7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_cd79500e4f966a00fccb76601310c75c</sys_update_name>
+        <sys_updated_by>brett.erickson</sys_updated_by>
+        <sys_updated_on>2016-10-07 13:12:39</sys_updated_on>
+        <sys_user_role display_value="x_tcff_patch_mgmt.admin" name="x_tcff_patch_mgmt.admin">600534754f96260057a7650f0310c7d5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

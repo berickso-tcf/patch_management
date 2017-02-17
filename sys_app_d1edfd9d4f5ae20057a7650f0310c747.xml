@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <enforce_license>log</enforce_license>
+        <js_level>traditional</js_level>
+        <licensable>true</licensable>
+        <logo/>
+        <menu display_value="Patch Management">99edf9114f9ae20057a7650f0310c72b</menu>
+        <name>Patch Management</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking/>
+        <scope>x_tcff_patch_mgmt</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_tcff_patch_mgmt</source>
+        <store_correlation_id>REPOAPP0000019128</store_correlation_id>
+        <store_url/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>brett.erickson</sys_created_by>
+        <sys_created_on>2016-10-05 12:35:16</sys_created_on>
+        <sys_id>d1edfd9d4f5ae20057a7650f0310c747</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>brett.erickson</sys_updated_by>
+        <sys_updated_on>2017-02-03 17:18:41</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <user_role display_value="x_tcff_patch_mgmt.user" name="x_tcff_patch_mgmt.user">11edf9114f9ae20057a7650f0310c72c</user_role>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.6</version>
+    </sys_app>
+</record_update>

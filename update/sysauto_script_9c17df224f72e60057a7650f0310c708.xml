@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Patch Missing Change</name>
+        <run_as display_value="Brett Erickson(L)">aacb3cfe4faf7100218d8b8d0210c787</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2016-11-03 12:48:40</run_start>
+        <run_time>1970-01-01 13:10:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[missinChangeEvent();
+
+function missinChangeEvent() {
+	var gr = new GlideRecord('x_tcff_patch_mgmt_patch_decision');
+	gr.addEncodedQuery('active=true^decision=Deploy^change_requestISEMPTY');
+	gr.query();
+	while (gr.next()) {
+		gs.eventQueue('x_tcff_patch_mgmt.patch.missing.change', gr, gr.assigned_to);
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>brett.erickson</sys_created_by>
+        <sys_created_on>2016-11-03 12:53:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9c17df224f72e60057a7650f0310c708</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patch Missing Change</sys_name>
+        <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+        <sys_update_name>sysauto_script_9c17df224f72e60057a7650f0310c708</sys_update_name>
+        <sys_updated_by>brett.erickson</sys_updated_by>
+        <sys_updated_on>2016-11-03 12:53:40</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

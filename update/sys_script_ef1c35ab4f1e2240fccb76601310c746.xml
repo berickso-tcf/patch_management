@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_tcff_patch_mgmt_patch_decision</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_tcff_patch_mgmt_patch_decision">change_requestVALCHANGES^EQ<item endquery="false" field="change_request" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set Change Affected CIs</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+// Build affected CI list based on the Decision's Affected CIs
+buildChangeACI();
+function buildChangeACI() {
+	var ciArr = [];
+	var pdaci = new GlideRecord('task_ci');
+	pdaci.addQuery('task', current.sys_id);
+	pdaci.query();
+	while (pdaci.next()) {
+		ciArr.push(pdaci.ci_item.toString());
+	}
+	if (ciArr.length > 0) {
+		for (var i=0; i<ciArr.length; i++) {
+			if (ciArr[i] == current.cmdb_ci.toString()) {
+				continue;
+			}
+			var pchaci = new GlideRecord('task_ci');
+			pchaci.initialize();
+			pchaci.task = current.change_request;
+			pchaci.ci_item = ciArr[i];
+			pchaci.insert();
+		}
+	}
+}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>brett.erickson</sys_created_by>
+        <sys_created_on>2016-10-12 12:17:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ef1c35ab4f1e2240fccb76601310c746</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Change Affected CIs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+        <sys_update_name>sys_script_ef1c35ab4f1e2240fccb76601310c746</sys_update_name>
+        <sys_updated_by>brett.erickson</sys_updated_by>
+        <sys_updated_on>2016-10-12 12:26:16</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=ef1c35ab4f1e2240fccb76601310c746"/>
+</record_update>

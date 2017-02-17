@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Review Details" section_id="cce562154fdae20057a7650f0310c779" sys_domain="global" table="x_tcff_patch_mgmt_baseline" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>review_frequency</element>
+            <position>0</position>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 17:20:15</sys_created_on>
+            <sys_id>3b1ff2dd4fdae20057a7650f0310c7ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review Details" display_value="Review Details" name="x_tcff_patch_mgmt_baseline" sys_domain="global" view="Default view">cce562154fdae20057a7650f0310c779</sys_ui_section>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 17:20:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>next_review_date</element>
+            <position>1</position>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 17:20:15</sys_created_on>
+            <sys_id>7b1ff2dd4fdae20057a7650f0310c7ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review Details" display_value="Review Details" name="x_tcff_patch_mgmt_baseline" sys_domain="global" view="Default view">cce562154fdae20057a7650f0310c779</sys_ui_section>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 17:20:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 17:20:15</sys_created_on>
+            <sys_id>bb1ff2dd4fdae20057a7650f0310c7ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review Details" display_value="Review Details" name="x_tcff_patch_mgmt_baseline" sys_domain="global" view="Default view">cce562154fdae20057a7650f0310c779</sys_ui_section>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 17:20:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_for_exemption</element>
+            <position>3</position>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 17:20:15</sys_created_on>
+            <sys_id>fb1ff2dd4fdae20057a7650f0310c7ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review Details" display_value="Review Details" name="x_tcff_patch_mgmt_baseline" sys_domain="global" view="Default view">cce562154fdae20057a7650f0310c779</sys_ui_section>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 17:20:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_exemption_reason</element>
+            <position>4</position>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 17:20:15</sys_created_on>
+            <sys_id>3f1ff2dd4fdae20057a7650f0310c7ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review Details" display_value="Review Details" name="x_tcff_patch_mgmt_baseline" sys_domain="global" view="Default view">cce562154fdae20057a7650f0310c779</sys_ui_section>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 17:20:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_authorized_by</element>
+            <position>5</position>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 17:20:15</sys_created_on>
+            <sys_id>7f1ff2dd4fdae20057a7650f0310c7ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review Details" display_value="Review Details" name="x_tcff_patch_mgmt_baseline" sys_domain="global" view="Default view">cce562154fdae20057a7650f0310c779</sys_ui_section>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 17:20:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 17:20:15</sys_created_on>
+            <sys_id>bf1ff2dd4fdae20057a7650f0310c7ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review Details" display_value="Review Details" name="x_tcff_patch_mgmt_baseline" sys_domain="global" view="Default view">cce562154fdae20057a7650f0310c779</sys_ui_section>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 17:20:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>7</position>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 17:20:15</sys_created_on>
+            <sys_id>ff1ff2dd4fdae20057a7650f0310c7ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review Details" display_value="Review Details" name="x_tcff_patch_mgmt_baseline" sys_domain="global" view="Default view">cce562154fdae20057a7650f0310c779</sys_ui_section>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 17:20:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>8</position>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 17:20:15</sys_created_on>
+            <sys_id>331f36dd4fdae20057a7650f0310c700</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review Details" display_value="Review Details" name="x_tcff_patch_mgmt_baseline" sys_domain="global" view="Default view">cce562154fdae20057a7650f0310c779</sys_ui_section>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 17:20:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>9</position>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 17:20:15</sys_created_on>
+            <sys_id>731f36dd4fdae20057a7650f0310c700</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Review Details" display_value="Review Details" name="x_tcff_patch_mgmt_baseline" sys_domain="global" view="Default view">cce562154fdae20057a7650f0310c779</sys_ui_section>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 17:20:15</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Review Details</caption>
+            <header>false</header>
+            <name>x_tcff_patch_mgmt_baseline</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>brett.erickson</sys_created_by>
+            <sys_created_on>2016-10-05 15:29:56</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cce562154fdae20057a7650f0310c779</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Review Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+            <sys_update_name>sys_ui_section_cce562154fdae20057a7650f0310c779</sys_update_name>
+            <sys_updated_by>brett.erickson</sys_updated_by>
+            <sys_updated_on>2016-10-05 15:29:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
