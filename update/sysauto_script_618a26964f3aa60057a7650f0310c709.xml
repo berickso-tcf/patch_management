@@ -5,7 +5,7 @@
         <condition/>
         <conditional>false</conditional>
         <name>Create Patch Decisions</name>
-        <run_as display_value="Brett Erickson(L)">aacb3cfe4faf7100218d8b8d0210c787</run_as>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
@@ -16,15 +16,20 @@
         <script><![CDATA[var affectedPbl = getBaselines();
 var gdt = new GlideDateTime();
 var currentDate = gdt.getYearLocalTime() + '-' + gdt.getMonthLocalTime() + '-01';
+var insertCount = 0;
+gs.info('Starting patch decision generation on ' + affectedPbl.length + ' objects.\nBaseline IDs = ' + affectedPbl);
 
 for (i=0; i < affectedPbl.length; i++) {
-		var newDec = new GlideRecord('x_tcff_patch_mgmt_patch_decision');
-		newDec.initialize();
-		newDec.baseline_item = affectedPbl[i];
-		newDec.patch_period = currentDate;
-		newDec.insert();
+	var newDec = new GlideRecord('x_tcff_patch_mgmt_patch_decision');
+	newDec.initialize();
+	newDec.baseline_item = affectedPbl[i];
+	newDec.patch_period = currentDate;
+	newDec.insert();
+	var nextReview = setNextReview(affectedPbl[i]);
+	insertCount++;
+	gs.info('inserted a decision for ' + affectedPbl[i] + '\nSet date to ' + nextReview);
 }
-
+gs.info('Finished inserting patch decisions.  Total inserts = ' + insertCount.toString());
 
 
 function getBaselines() {
@@ -34,34 +39,42 @@ function getBaselines() {
 	pbl.query();
 	while (pbl.next()) {
 		pblArr.push(pbl.sys_id.toString());
-		var dtstr = '';
-		if (pbl.review_frequency == 'Monthly') {
-			dtstr = gs.beginningOfNextMonth();
-		}
-		if (pbl.review_frequency == 'Quarterly') {
-			dtstr = gs.endOfThisQuarter();
-		}
-		if (pbl.review_frequency == 'Semi-Annually') {
-			var gdt = new GlideDateTime();
-			var month = gdt.getMonthLocalTime();
-			var year = gdt.getYearLocalTime();
-			if (month < 7) {
-				dtstr = year.toString() + '-07-01 00:00:00';
-			} else {
-				var yearint = parseInt(year) + 1;
-				dtstr = yearint.toString() + '-01-01 00:00:00';
-			}
-		}
-		//gs.info ('I think the datetime is ' + dtstr);
-		if (dtstr != '') {
-			var datetime = new GlideDateTime(dtstr);
-			pbl.next_review_date = datetime.getDate().toString();
-		} else {
-			current.next_review_date = '';
-		}
-		pbl.update();
 	}
 	return pblArr;
+}
+
+function setNextReview(pdb) {
+	var dtstr = '';
+	var pbd = new GlideRecord('x_tcff_patch_mgmt_baseline');
+	pbd.get(pdb);
+	if (pbd.review_frequency == 'Monthly') {
+		dtstr = gs.beginningOfNextMonth();
+	}
+	if (pbd.review_frequency == 'Quarterly') {
+		dtstr = gs.endOfThisQuarter();
+	}
+	if (pbd.review_frequency == 'Semi-Annually') {
+		var gdt = new GlideDateTime();
+		var month = gdt.getMonthLocalTime();
+		var year = gdt.getYearLocalTime();
+		if (month < 7) {
+			dtstr = year.toString() + '-07-01 00:00:00';
+		} else {
+			var yearint = parseInt(year) + 1;
+			dtstr = yearint.toString() + '-01-01 00:00:00';
+		}
+	}
+	//gs.info ('I think the datetime is ' + dtstr);
+	var dateTimeStr = '';
+	if (dtstr != '') {
+		var datetime = new GlideDateTime(dtstr);
+		dateTimeStr = datetime.getDate().toString();
+		pbd.next_review_date = dateTimeStr;
+	} else {
+		pbd.next_review_date = '';
+	}
+	pbd.update();
+	return dateTimeStr;
 }
 ]]></script>
         <sys_class_name>sysauto_script</sys_class_name>
@@ -69,7 +82,7 @@ function getBaselines() {
         <sys_created_on>2016-11-02 16:00:56</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>618a26964f3aa60057a7650f0310c709</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Create Patch Decisions</sys_name>
         <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
         <sys_policy/>
@@ -77,7 +90,7 @@ function getBaselines() {
         <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
         <sys_update_name>sysauto_script_618a26964f3aa60057a7650f0310c709</sys_update_name>
         <sys_updated_by>brett.erickson</sys_updated_by>
-        <sys_updated_on>2016-12-15 16:43:05</sys_updated_on>
+        <sys_updated_on>2017-04-14 16:11:07</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

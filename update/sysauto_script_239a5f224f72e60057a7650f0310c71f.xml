@@ -26,7 +26,7 @@ function overdueEvent() {
         <sys_class_name>sysauto_script</sys_class_name>
         <sys_created_by>brett.erickson</sys_created_by>
         <sys_created_on>2016-11-03 13:04:11</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>239a5f224f72e60057a7650f0310c71f</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Patch Overdue</sys_name>

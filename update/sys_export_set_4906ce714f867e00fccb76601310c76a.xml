@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_export_set">
+    <sys_export_set action="INSERT_OR_UPDATE">
+        <append_timestamp>false</append_timestamp>
+        <export_definition/>
+        <export_target/>
+        <file_name>patch_due_export_set.xlsx</file_name>
+        <format>XLSX</format>
+        <max_rows/>
+        <name>Patch Due Export Set</name>
+        <sys_class_name>sys_export_set</sys_class_name>
+        <sys_created_by>brett.erickson</sys_created_by>
+        <sys_created_on>2017-04-11 12:24:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4906ce714f867e00fccb76601310c76a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Patch Due Export Set</sys_name>
+        <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+        <sys_update_name>sys_export_set_4906ce714f867e00fccb76601310c76a</sys_update_name>
+        <sys_updated_by>brett.erickson</sys_updated_by>
+        <sys_updated_on>2017-04-11 12:31:41</sys_updated_on>
+    </sys_export_set>
+</record_update>
