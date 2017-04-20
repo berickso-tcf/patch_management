@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+var isAdmin = g_user.hasRole('x_tcff_patch_mgmt.admin');
+	if (isAdmin){
+		return;
+	}
+	else {
+		g_form.setDisplay('state',false);
+      //g_form.setReadOnly('state',true);
+	}
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide state</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>james.lewis</sys_created_by>
+        <sys_created_on>2017-04-20 13:00:41</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>be1460744f56b200fccb76601310c790</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Hide state</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Patch Management" source="x_tcff_patch_mgmt">d1edfd9d4f5ae20057a7650f0310c747</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Patch Management">d1edfd9d4f5ae20057a7650f0310c747</sys_scope>
+        <sys_update_name>sys_ui_policy_be1460744f56b200fccb76601310c790</sys_update_name>
+        <sys_updated_by>james.lewis</sys_updated_by>
+        <sys_updated_on>2017-04-20 13:26:15</sys_updated_on>
+        <table>x_tcff_patch_mgmt_patch_decision</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

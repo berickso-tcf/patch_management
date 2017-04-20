@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Patch Decision" max_length="40" name="x_tcff_patch_mgmt_patch_decision" sizeclass="923" type="collection">
+    <element audit="true" extends="task" label="Patch Decision" max_length="40" name="x_tcff_patch_mgmt_patch_decision" sizeclass="924" type="collection">
         <element label="Baseline Item" mandatory="true" max_length="32" name="baseline_item" reference="x_tcff_patch_mgmt_baseline" type="reference"/>
         <element label="Enhancement" max_length="40" name="cat_enhancement" type="boolean"/>
         <element label="Functionality" max_length="40" name="cat_functionality" type="boolean"/>
